@@ -24,6 +24,13 @@ namespace LegoMinfigures.Minifigures
 			Console.WriteLine("I love to build things with my bare hands.");
 			Head.SayHi();
 			Head.Spin();
+			Torso.Greeting();
+			Leg.Dance();
+		}
+
+		public void SayHi()
+		{
+			Head.SayHi();
 		}
 
 

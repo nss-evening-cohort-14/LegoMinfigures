@@ -73,6 +73,7 @@ namespace LegoMinfigures
             //var bob = new Minifigure(workerHead, cowboyTorso, new SeaLeg());
             var bob = new Minifigure(workerHead, cowboyTorso, seaLeg);
             bob.BuildIt();
+            
 
             Console.WriteLine("You just saw Bob do his thang!");
             Console.ReadLine();
